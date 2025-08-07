@@ -1,6 +1,14 @@
 # ReConnect-AI-Assignment
 The task is to analyze the provided dataset containing historical load, temperature, and rain factor data, and deliver detailed findings, methodology, and a final load demand forecast. 
 
+# Data Description :
+Hourly historical load, weather and holiday data an of the utility are provided (Load_History.csv). The historical data file contains the data from the 01-01-2022 00:00 till 24-12-2023 23:00. Beyond this point it contains only weather and holdiay data.
+
+POWER_MW – Hourly Load
+Temp_FC – Forecasted Temperature – available for future in advance
+Rain_FC – Forecasted Precipitation – available for future in advance
+Is_holiday – Holiday Tagging [ 1 – Holiday, 0 – No Holiday]
+
 This notebook performs exploratory data analysis and preprocessing on a power load forecasting dataset and machine learning models such as K Means, PLS and RandomForest have been utilized for the forecasting of final load demand. 
 Key steps include:
 ## Data Exploration
