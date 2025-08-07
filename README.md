@@ -1,7 +1,7 @@
 # ReConnect-AI-Assignment
 The task is to analyze the provided dataset containing historical load, temperature, and rain factor data, and deliver detailed findings, methodology, and a final load demand forecast. 
 
-This notebook performs exploratory data analysis and preprocessing on a power load forecasting dataset and machine learning models such as PLS and RandomForest have been utilized for the forecasting of final load demand. 
+This notebook performs exploratory data analysis and preprocessing on a power load forecasting dataset and machine learning models such as K Means, PLS and RandomForest have been utilized for the forecasting of final load demand. 
 Key steps include:
 ## Data Exploration
 * Loads historical power consumption data (Load_History.csv).
